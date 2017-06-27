@@ -1,0 +1,14 @@
+#DECIDE will choose whether you want to read an existing pcap file(1) or to capture live traffice(2)
+DECIDE: "2"
+#Enter the path where tshark.exe is located
+TSHARK_PATH: "C:\\Program Files\\Wireshark\\tshark.exe"
+#location of the pcap file to be read
+READFROM: "C:\\mycaptures\\maccdc2012_00000.pcap"
+#name of the file to output to 
+OUTPUT_FILE_NAME : "captured_packets.csv"
+#path of the directory to output to
+OUTPUT_DIR: "C:\\mycaptures\\"
+INTERFACE_NO: 1
+PACKET_FILTER: "ip"
+#in kb
+OUTPUT_FILE_SIZE_LIMIT: 200
